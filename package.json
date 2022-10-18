@@ -4,7 +4,11 @@
   "workspaces": [
     "packages/**"
   ],
+  "scripts": {
+    "start": "lerna exec --scope @mel/main -- yarn start"
+  },
   "devDependencies": {
+    "craco": "^0.0.3",
     "lerna": "^6.0.1"
   }
 }
