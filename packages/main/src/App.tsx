@@ -11,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Body></Body>
 
-        Count 0--{'>'} {count}
+        Count --{'>'} {count}
         <Button onClick={() => setCount((prev) => ++prev)}></Button>
       </header>
     </div>

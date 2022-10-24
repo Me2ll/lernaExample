@@ -3,7 +3,7 @@ import * as React from "react"
 
 const Body: React.FC = () => {
     return (
-        <div>Buraya Bakarlar</div>
+        <div>Hot Reload</div>
     )
 }
 
